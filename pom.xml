@@ -8,9 +8,15 @@
   <artifactId>newSelenium</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
-  <name>newSelenium</name>
+  <name>seleniumex</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.7</maven.compiler.source>
+    <maven.compiler.target>1.7</maven.compiler.target>
+  </properties>
 
   <dependencies>
     <dependency>
@@ -44,45 +50,6 @@
 
 
 
-    <dependency>
-      <groupId>com.google.guava</groupId>
-      <artifactId>guava</artifactId>
-      <version>31.0.1-jre</version>
-    </dependency>
-  
- 
-<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
-<dependency>
-    <groupId>io.cucumber</groupId>
-    <artifactId>cucumber-java</artifactId>
-    <version>7.11.2</version>
-</dependency>
-<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
-<dependency>
-    <groupId>io.cucumber</groupId>
-    <artifactId>cucumber-junit</artifactId>
-    <version>7.11.2</version>
-    <scope>test</scope>
-</dependency>
-<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-core -->
-<dependency>
-    <groupId>io.cucumber</groupId>
-    <artifactId>cucumber-core</artifactId>
-    <version>7.11.2</version>
-</dependency>
-<!-- https://mvnrepository.com/artifact/io.cucumber/gherkin -->
-<dependency>
-    <groupId>io.cucumber</groupId>
-    <artifactId>gherkin</artifactId>
-    <version>26.2.0</version>
-</dependency>
-<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-jvm-deps -->
-<dependency>
-    <groupId>io.cucumber</groupId>
-    <artifactId>cucumber-jvm-deps</artifactId>
-    <version>1.0.6</version>
-    <scope>provided</scope>
-</dependency>
 <!-- https://mvnrepository.com/artifact/org.mockito/mockito-all -->
 
 <!-- https://mvnrepository.com/artifact/junit/junit -->
@@ -192,7 +159,7 @@
           <artifactId>maven-compiler-plugin</artifactId>
           <version>3.8.0</version>
         </plugin>
-       
+        
         <plugin>
           <artifactId>maven-jar-plugin</artifactId>
           <version>3.0.2</version>
@@ -216,6 +183,5 @@
         </plugin>
       </plugins>
     </pluginManagement>
-  
   </build>
 </project>
